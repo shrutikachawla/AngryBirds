@@ -11,7 +11,7 @@ function draw() {
   movingRect.y = World.mouseY;
   movingRect.x = World.mouseX;
   
-  text("When touching: "+(movingRect.width/2+fixedRect.width/2), 50,50);
+  text("When rectangles touching: "+(movingRect.width/2+fixedRect.width/2), 50,50);
   text("At any position: "+(movingRect.x-fixedRect.x), 50, 70);
 
   if(movingRect.x-fixedRect.x < movingRect.width/2+fixedRect.width/2
